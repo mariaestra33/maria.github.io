@@ -160,23 +160,6 @@ footer {
     margin-bottom: 20px;
 }
 
-.linkedin {
-    margin-top: 30px;
-}
-
-.linkedin a {
-    display: inline-block;
-    text-decoration: none;
-    background-color: #222;
-    color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
-.linkedin a:hover {
-    opacity: 0.8;
-}
 .contact-buttons {
     display: flex;
     gap: 15px;
