@@ -69,20 +69,17 @@ header p {
 
 /* Skills */
 
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+.skill-category {
+    margin-bottom: 30px;
 }
 
-.skills span {
-    display: inline-block;
-    background-color: #e0e0e0;
-    color: #222;
-    padding: 8px 14px;
-    border-radius: 6px;
-    font-size: 14px;
-    border: 1px solid #d0d0d0;
+.skill-category:last-child {
+    margin-bottom: 0;
+}
+
+.skill-category h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
 
