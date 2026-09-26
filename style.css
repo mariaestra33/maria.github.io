@@ -90,12 +90,12 @@ header p {
 
 .skills span {
     display: inline-block;
-    background-color: #e0e0e0;
-    color: #222;
+    background-color: #0077b5;
+    color: #ffffff;
     padding: 8px 14px;
     border-radius: 6px;
     font-size: 14px;
-    border: 1px solid #d0d0d0;
+    border: 1px solid #0077b5;
     white-space: nowrap;
 }
 
