@@ -72,14 +72,17 @@ header p {
 .skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
 }
 
 .skills span {
-    background-color: #e8eef5;
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #222;
     padding: 8px 14px;
-    border-radius: 20px;
+    border-radius: 6px;
     font-size: 14px;
+    border: 1px solid #d0d0d0;
 }
 
 
