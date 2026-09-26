@@ -134,3 +134,12 @@ footer {
     padding: 25px;
     font-size: 14px;
 }
+/* Profile photo */
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
