@@ -82,6 +82,23 @@ header p {
     margin-bottom: 15px;
 }
 
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #222;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid #d0d0d0;
+    white-space: nowrap;
+}
+
 
 /* Projects */
 
@@ -137,9 +154,9 @@ footer {
 /* Profile photo */
 
 .profile-photo {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 20px;
 }
