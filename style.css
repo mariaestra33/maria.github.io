@@ -177,3 +177,22 @@ footer {
 .linkedin a:hover {
     opacity: 0.8;
 }
+.contact-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contact-buttons a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #222;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.contact-buttons a:hover {
+    opacity: 0.8;
+}
