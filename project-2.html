@@ -1,1 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Urban Grocers | API Testing</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="centered-header">
+    <h1>Urban Grocers</h1>
+
+    <h2>API Testing</h2>
+
+    <p>
+        API testing of updated backend requirements for an application 
+        that creates grocery product kits and provides delivery services.
+    </p>
+
+    <img src="urban-routes-taxi.jpg"
+         alt="Taxi used in the Urban Routes application"
+         class="project-image">
+</header>
+
+        <main>
+
+            <!-- Project Overview -->
+            <section class="section">
+
+                <h2>Project Overview</h2>
+
+                <p>
+                    Urban Grocers is an application that manages product
+                    kits for users and provides delivery services.
+                </p>
+
+            </section>
+
+
+            <!-- Testing Objectives -->
+            <section class="section">
+
+                <h2>Testing Objectives</h2>
+
+                <p>
+                    The application had recently been updated with new
+                    services and requirements. The objective of this project 
+                    is to analyze the updated backend requirements
+                    and verify that the API supported them correctly.
+
+                <p>
+
+            </section>
+
+
+            <!-- Methodology -->
+            <section class="section">
+
+                <h2>Methodology</h2>
+
+                <h3>Requirements Analysis</h3>
+
+                <p>
+                    Two main requirements are analyzed:
+                     Users must be able to add existing products to a kit using the POST endpoint.
+    </li>
+    <li>
+        Each kit has a limit of 30 unique products. If more than 30 product IDs are added, the API should return an error.
+    </li>
+</ul>
+
+<p>The following API responses were also validated:</p>
+
+<ul>
+    <li>
+        A <strong>400 Bad Request</strong> response when non-existing product IDs are added.
+    </li>
+    <li>
+        A <strong>404 Not Found</strong> response when products are added to a non-existing kit ID.
+    </li>
+    <li>
+        A <strong>400 Bad Request</strong> response when the request body does not have the correct structure.
+    </li>
+</ul>
+                </p>
+
+
+                <h3>Test Case Design</h3>
+
+                <p>
+    A total of <strong>58 positive and negative test cases</strong>
+    were designed using <strong>equivalence partitioning</strong>
+    and <strong>boundary value analysis</strong>.
+</p>
+
+<p>The test cases covered:</p>
+
+<ul>
+    <li>Kit ID</li>
+    <li>Product ID</li>
+    <li>The structure of the <code>productList</code> array</li>
+    <li>The valid length of the <code>productList</code> array</li>
+    <li>The maximum limit of 30 unique products per kit</li>
+</ul>
+
+<p>
+    The required fields for the <strong>"Order and Go"</strong> service
+    were also validated. The fields
+    <code>productsCount</code>,
+    <code>productsWeight</code>, and
+    <code>deliveryTime</code> were tested according to the backend
+    requirements.
+</p>
+
+                <h3>Test Execution</h3>
+
+                <p>
+    An empty product kit was created in Postman using the following
+    POST endpoint:
+</p>
+
+<p>
+    <code>POST /api/v1/kits/{id}/products</code>
+</p>
+
+<p>
+    The endpoint was used to execute the 58 test cases and validate
+    the API responses against the expected results.
+</p>
+
+    <h3>Bug Reporting</h3>
+
+<p>
+    The identified defects were reported in JIRA. Each bug report included
+    a clear and concise title, steps to reproduce, expected result, actual
+    result, screenshot, and the appropriate severity level.
+</p>
+
+            </section>
+
+
+            <!-- Results -->
+            <section class="section">
+
+                <h2>Results</h2>
+
+                <p>
+                    A total of <strong>7 functional bugs</strong>
+                    were identified and documented in JIRA. Then
+                     reported to the development team
+                    for resolution according to their severity.
+                </p>
+
+            </section>
+
+
+            <!-- Tools -->
+            <section class="section">
+
+                <h2>Tools Used</h2>
+
+                <div class="skills">
+
+                    <span>API Documentation — apiDoc</span>
+                    <span>Backend Requirements</span>
+                    <span>JIRA</span>
+                    <span>Urban Grocers Server</span>
+                    <span>Postman</span>
+
+                </div>
+
+            </section>
+
+
+            <!-- Project Impact -->
+            <section class="section">
+
+                <h2>Project Impact</h2>
+
+                <p>
+                    Validated API functionality against updated business requirements,
+                    helped ensure reliable product kit creation and delivery services
+                    while identifying potential issues before they could affect users.
+                    
+                </p>
+
+            </section>
+
+
+            <!-- Back to Portfolio -->
+            <section class="section">
+
+                <a href="index.html" class="back-button">
+                    ← Back to Portfolio
+                </a>
+
+            </section>
+
+        </main>
+
+        <footer>
+            <p>
+                © 2026 Maria Noguez
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
