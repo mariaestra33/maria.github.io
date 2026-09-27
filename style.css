@@ -180,3 +180,13 @@ footer {
 .contact-buttons a:hover {
     opacity: 0.8;
 }
+
+.project-image {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 300px;
+    object-fit: cover;
+    margin: 30px auto 0;
+    border-radius: 10px;
+}
