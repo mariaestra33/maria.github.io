@@ -183,8 +183,8 @@ footer {
 
 .project-image {
     display: block;
-    width: 320px;
-    height: 140px;
+    width: 280px;
+    height: 120px;
     object-fit: cover;
     margin: 25px auto 0;
     border-radius: 10px;
