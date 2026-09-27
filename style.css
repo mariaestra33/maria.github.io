@@ -189,3 +189,7 @@ footer {
     margin: 25px auto 0;
     border-radius: 10px;
 }
+/* Centered Header */
+.centered-header {
+    text-align: center;
+}
