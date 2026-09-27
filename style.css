@@ -189,6 +189,15 @@ footer {
     margin: 25px auto 0;
     border-radius: 10px;
 }
+
+.api-image {
+    display: block;
+    width: 240px;
+    max-width: 140%;
+    height: auto;
+    margin: 25px auto;
+    border-radius: 10px;
+}
 /* Centered Header */
 .centered-header {
     text-align: center;
